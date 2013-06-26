@@ -1,0 +1,24 @@
+options:
+  log_output: false
+  dir_mode: normal
+  dir: "cinchize"
+servers:
+  mensearch:
+    server: irc.freenode.net
+    port: 6667
+    nick: borisbikes
+    user: borisikes
+    realname: Boris the Bot
+    channels:
+      - "##borisbikes"
+    plugins:
+      -
+        class: "BorisBikes::IRC"
+        options:
+            stands:
+              - 17
+              - 72
+              - 22
+              - 67
+              - 57
+
